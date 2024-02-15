@@ -49,6 +49,20 @@ class Dijkstra
 
 
 
+        int s = 0;
+        do
+        {
+            Console.WriteLine("Inserire il nodo di partenza: ");
+            s = int.Parse(Console.ReadLine());
+        } while (s > m);
+
+        int d = 0;
+        do
+        {
+            Console.WriteLine("Inserire il nodo di destinazione: ");
+            d = int.Parse(Console.ReadLine());
+        } while (d > m - 1);
+
 
 
     }
